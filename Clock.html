@@ -6,16 +6,16 @@
 <body>
 <div id="DigitalClock"></div>
 
-<script type="text/javascript">
-	
+<script type="text/javascript">	
+	function showTime() {
 	var date = newDate();
 	var h = date.getHours();
 	var m = date.getMinutes();
 	var s = date.getSeconds();
 
-	 document.getElementById("DigitalClock").innerHTML = h + "printed" + m ":" + s;
-	
-
+	document.getElementById("DigitalClock").innerHTML = h + "printed" + m ":" + s;	
+}
+showTime();
 </script>
 </body>
 </html>
