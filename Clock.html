@@ -2,9 +2,23 @@
 <html>
 <head>
 	<title>Digital Clock</title>
+	<style type="text/css">
+		body{
+			background-color: black;
+		}.Clock{
+			position: absolute;
+			color: red;
+			top: 50%;
+			left:50%;
+			transform: translateX(-50%) translateY(-50%);
+			font-size: 60px;
+			font-family: Orbitron;
+			letter-spacing: 5px;
+		}
+	</style>
 </head>
 <body>
-<div id="DigitalClock"></div>
+<div id="DigitalClock" class="Clock"></div>
 
 <script type="text/javascript">
 	function showTime() {
